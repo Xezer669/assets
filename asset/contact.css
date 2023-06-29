@@ -1,0 +1,55 @@
+h2 {
+    margin: 1em auto;
+    color: #4aaaa5;
+    font-size: 2rem;
+  }
+
+.btn {
+    padding: 5px 10px;
+    background-color: #4aaaa5;
+    color: #fff;
+    border: 1px solid #00a199;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.container {
+    margin: 20px auto;
+    width: 960px;
+}
+
+fieldset {
+   
+    padding: 2rem 0;
+   
+}
+
+form {
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    margin: 20px 0;
+    padding: 20px;
+    float: left;
+  }
+
+  label {
+    display: block;
+    margin: 0.7rem 0;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+
+  .sidebar {
+    margin-top: 20px;
+  }
+
+
+
+ 
