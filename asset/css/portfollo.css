@@ -1,0 +1,25 @@
+h2 {
+    margin: 1em auto;
+    color: #4aaaa5;
+    font-size: 2rem;
+  }
+
+.portfollo {
+    width: 475px;
+    float: left;
+    background-color: #ffff;
+    border: 1px solid #dddddd;
+    margin: 100px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.portfollo-img {
+    width: 225px;
+    height: 225px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+
