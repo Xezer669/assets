@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    margin: 20px auto;
+    margin: 0 auto;
     width: 960px;
 }
 
@@ -19,8 +19,7 @@ body {
 .main-header {
     background-color: #ffff;
     padding: 15px 0;
-    border: 1px solid #cccccc;
-    border-radius: 10px;
+    border-bottom: 1px solid #cccccc;
 }
 
 .main-header-logo {
@@ -51,14 +50,22 @@ body {
     padding: 5px 10px;
 }
 
-.main-nav-item::before {
+/* .main-nav-item::before {
     content: '\2023';
     height: 10px;
     display: inline-block;
     margin-left: 5px;
     color: #666666;
     font-size: 20px;
-}
+} */
+
+ .main-nav-items li + li::after {
+    content: "";
+    border-left: 1px solid #5f5f5f;
+    height: 10px;
+    display: inline-block;
+    margin-left: 5px;
+} 
 
 .main-nav-item a {
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -88,15 +95,6 @@ body {
     clear: both;
     display: block;
 }
-
-/* .main-nav-items li + li::after {
-    content: "";
-    border-left: 1px solid #ccc;
-    height: 10px;
-    display: inline-block;
-    margin-left: 5px;
-} */
-
 
 
 /* Main */

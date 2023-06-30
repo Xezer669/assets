@@ -5,17 +5,12 @@ h2 {
   }
 
 .btn {
-    padding: 5px 10px;
+    padding: 10px 20px;
     background-color: #4aaaa5;
     color: #fff;
     border: 1px solid #00a199;
     cursor: pointer;
-    display: inline-block;
-}
-
-.container {
-    margin: 20px auto;
-    width: 960px;
+    display: block;
 }
 
 fieldset {
